@@ -1,1 +1,0 @@
-/Users/matthewst/.zshrc
