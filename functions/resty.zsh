@@ -1,0 +1,3 @@
+resty() {
+source ~/resty
+}
