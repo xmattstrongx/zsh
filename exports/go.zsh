@@ -1,5 +1,4 @@
 ########GO EXPORTS######
-echo MATT MATT MATT;
 #Set which version of go to use and export go project to GOPATH
 source "/Users/matthewst/.gvm/scripts/gvm"
 gvm use go1.7
