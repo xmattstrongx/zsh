@@ -1,9 +1,9 @@
 ########GO EXPORTS######
 #Set which version of go to use and export go project to GOPATH
-source "/Users/matthewst/.gvm/scripts/gvm"
+[[ -s "/Users/$USER/.gvm/scripts/gvm" ]] && source "/Users/$USER/.gvm/scripts/gvm"
 gvm use go1.7
-export GOPATH=~/go
-export MATT=matt
+export GOPATH=$HOME/go
+
 #Set up go to build linux executables
 export GOXCOMP_OS=linux
 export GOXCOMP_ARCH=amd64
